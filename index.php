@@ -24,6 +24,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     exit;
 }
 
+
+$_SESSION["token"] = bin2hex(random_bytes(32));
+
 require_once(ROOT.'/src/Kernel/Router.php');
 
 require_once(ROOT.'/src/Kernel/Autoload.php');

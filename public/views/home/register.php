@@ -27,6 +27,7 @@
                             least 8 chars, should contain at least one upper letter, one lower letter
                             and a “special” char</span>
                     </div>
+                    <input type="hidden" name="token" value="<?php echo $_SESSION["token"]?>"/>
                     <div class="form-group">
                         <label for="password" id="confirmPasswordLabel">Confirm Password: </label>
                         <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"

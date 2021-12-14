@@ -14,9 +14,13 @@ class RegisterController extends BaseController
         $categories = Category::getAll();
         $hobies = Hobby::getAll();
         $departments = Department::getAll();
+        print_r($_SESSION['token']);
+        print_r($_POST["token"]);
+        if (!isset($_POST["token"]) || !isset($_SESSION["token"])) {
+            exit('CSRF Token is not the same');
 
-
-        if (isset($_POST['submit']) && isset($_POST['terms'])) {
+        }
+        if (isset($_POST['submit']) && isset($_POST['terms']) && ($_POST["token"] == $_SESSION["token"])) {
 
             $credentials['username'] = htmlspecialchars($_POST['username'], ENT_HTML5, 'UTF-8');
             $credentials['email']  = htmlspecialchars($_POST['email'], ENT_HTML5, 'UTF-8');
