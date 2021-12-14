@@ -48,3 +48,17 @@ if (!function_exists('validationPassword')) {
     }
 }
 
+
+
+
+if(!function_exists('csrf')) {
+    function csrf() {
+        // Check if a token is present for the current session
+        if(!isset($_SESSION["csrf_token"])) {
+            $_SESSION["csrf_token"] = $token;
+        } else {
+            $token = $_SESSION["csrf_token"];
+        }
+        return $token;
+      }
+}
