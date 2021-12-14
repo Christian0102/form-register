@@ -1,0 +1,39 @@
+{
+
+    "loginForm": {
+        "formName": "Login Form",
+        "loginButton": "Login",
+        "emailLabel": "Email",
+        "inputEmail": "Email",
+        "emailHelp": "Please enter your email address",
+        "passwordLabel": "Password",
+        "inputPassword": "Password",
+        "passwordHelp": "Please enter your password"
+
+    },
+    "registerForm": {
+        "formName": "Register Form",
+        "registerButton": "Register",
+        "resetButton": "Reset",
+        "firstNamelabel": "Firstname:",
+        "inputFirstname": "First Name",
+        "firstnameHelp": "First name min 4 characters max 30 characters",
+        "lastNamelabel": "Lastname:",
+        "inputLastname": "Last Name",
+        "lastnameHelp": "Last name min 2 characters max 30 characters",
+        "emailLabel": "Email",
+        "inputEmail": "Email",
+        "emailHelp": "Please enter valide email address",
+        "passwordLabel": "Password",
+        "inputPassword": "Password",
+        "passwordHelp": "Password min length 6 characters max 20 characterss",
+        "chosePhoto": "Chose your Photo",
+        "photoHelp": "Upload your photo on jpg/png/gif format"
+
+    },
+    "logoutButton": {
+         "dropdown": "Chose Language",
+        "logoutAlert":"You Are sure to logout?"
+    }
+
+}

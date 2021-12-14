@@ -1,0 +1,39 @@
+{
+
+    "loginForm": {
+        "formName": "Форма входа",
+        "loginButton": "Войти",
+        "emailLabel": "Электронный адрес",
+        "inputEmail": "Электронный адрес",
+        "emailHelp": "Пожалуйста, введите свой адрес электронной почты",
+        "passwordLabel": "Пароль",
+        "inputPassword": "Пароль",
+        "passwordHelp": "Пожалуйста введите ваш пароль"
+
+    },
+    "registerForm": {
+        "formName": "Регистрация",
+        "registerButton": "Зареги..",
+        "resetButton": "Сброс",
+        "firstNamelabel": "Имя:",
+        "inputFirstname": "Имя",
+        "firstnameHelp": "Имя должно быть минимум из  4 символа максимум из 30 символов",
+        "lastNamelabel": "Фамилия:",
+        "inputLastname": "Фамилия",
+        "lastnameHelp": "Фамилия должно быть минимум из  4 символа максимум из 30 символов",
+        "emailLabel": "Эл. адрес",
+        "inputEmail": "Эл. адрес",
+        "emailHelp": "Пожалуйста, введите действующий адрес электронной почты",
+        "passwordLabel": "Пароль",
+        "inputPassword": "Пароль",
+        "passwordHelp": "Минимальная длина пароля 6 символов, максимум 20 символов",
+        "chosePhoto": "Выберите свою фотографию",
+        "photoHelp": "Загрузите свое фото в формате jpg/png/gif"
+
+    },
+    "logoutButton": {
+        "dropdown": "Выбрать Язык",
+        "logoutAlert":"Вы уверены что вы хотите выйти?"
+    }
+
+}
